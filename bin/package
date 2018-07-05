@@ -1,0 +1,6 @@
+#!/bin/sh
+
+zip browser-tweaks.zip \
+  no-animations.js \
+  manifest.json
+
