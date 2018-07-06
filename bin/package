@@ -1,6 +1,8 @@
 #!/bin/sh
-
-zip browser-tweaks.zip \
-  no-animations.js \
-  manifest.json
+set -e
+lpass status || lpass login "$EMAIL"
+web-ext sign \
+  --source-dir src \
+  --api-key "$(lpass show --username services.addons.mozilla.org)" \
+  --api-secret "$(lpass show --password services.addons.mozilla.org)"
 

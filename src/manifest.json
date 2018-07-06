@@ -2,7 +2,7 @@
   "description": "Mikey's browser tweaks.",
   "manifest_version": 2,
   "name": "mboldt-browser-tweaks",
-  "version": "1.0",
+  "version": "1.0.0",
   "homepage_url": "https://github.com/mboldt/browser-tweaks",
   "content_scripts": [
     {
@@ -11,3 +11,4 @@
     }
   ]
 }
+
